@@ -1,0 +1,13 @@
+<?php
+
+namespace app\controller;
+use app\BaseController;
+
+class Hello extends BaseController
+{
+    // 显示欢迎页面
+    public function index()
+    {
+    	return 'Hello,ThinkPHP!';
+    }
+}
